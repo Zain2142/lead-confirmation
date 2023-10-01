@@ -1,7 +1,6 @@
-*{
-    font-family: 'Almarai', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-}
+body{
+    font-family: 'Roboto', sans-serif;
+} 
 .top-section {
     background: #fbfbfb;
     box-shadow: 1px 1px 2px #f5f5f5;
@@ -30,57 +29,45 @@
     background: #24b724;
     color: white;
 }
-
-
-
-.lead-genaration-heddig{
-    margin: 108px;
+.mac-lead-genaration{
+    margin: 114px auto;
+    max-width: 853px;
 }
 .lead-genaration-heddig h1{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 800;
 }
-.minimum-requirement{
-    margin: 108px;
+.lead-genaration-heddig p{
+    color: #9b9b9b;
+    line-height: 35px;
+    margin-top: 27px;
 }
 .minimum-requirement h5{
 color: #33c933;
 }
 .minimum-requirement h4{
     font-weight: 800;
+    font-size: 18px;
 }
-.intent-title{
-    margin: 108px;
+.minimum-requirement p{
+    color: #9b9b9b;
+    line-height: 35px;
+    margin-top: 27px;
 }
+
 .intent-title h5{
     color: #33c933;
 }
 .intent-title h4{
     font-weight: 800;
+    font-size: 18px;
 }
-.expectation-title{
-    margin: 108px;
+.intent-title p{
+    color: #9b9b9b;
+    line-height: 35px;
+    margin-top: 27px;
 }
-.expectation-title h5{
-    color: #33c933;
-}
-.expectation-title h4{
-    font-weight: 800;
-}
-.post-webform-lead{
-    margin: 108px;
-}
-.post-webform-lead h2{
-    font-weight: 800;
-    font-size: 43px;
-}
-.live-transfers{
-    margin: 108px;
-}
-.live-transfers h2{
-    font-weight: 800;
-    font-size: 43px;
-}
+
 #style-btn{
     border: none;
     background: #e9e9e9;
@@ -146,4 +133,10 @@ color: #33c933;
         list-style: none;
         flex-wrap: wrap;
     }
+}
+
+
+
+body{
+    margin-bottom: 200px;
 }
