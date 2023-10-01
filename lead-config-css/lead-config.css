@@ -1,0 +1,149 @@
+*{
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.top-section {
+    background: #fbfbfb;
+    box-shadow: 1px 1px 2px #f5f5f5;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.top-hedder-support-section{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    
+}
+.top-hedder-support-section li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-section{
+    background-color: #fbfbfb;
+    box-shadow: 1px 1px 2px #f5f5f5;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.nav-laft-sec{
+    padding-left: 63%;
+    gap: 33px;
+}
+#btn-taxt-color{
+    background: #24b724;
+    color: white;
+}
+
+
+
+.lead-genaration-heddig{
+    margin: 108px;
+}
+.lead-genaration-heddig h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.minimum-requirement{
+    margin: 108px;
+}
+.minimum-requirement h5{
+color: #33c933;
+}
+.minimum-requirement h4{
+    font-weight: 800;
+}
+.intent-title{
+    margin: 108px;
+}
+.intent-title h5{
+    color: #33c933;
+}
+.intent-title h4{
+    font-weight: 800;
+}
+.expectation-title{
+    margin: 108px;
+}
+.expectation-title h5{
+    color: #33c933;
+}
+.expectation-title h4{
+    font-weight: 800;
+}
+.post-webform-lead{
+    margin: 108px;
+}
+.post-webform-lead h2{
+    font-weight: 800;
+    font-size: 43px;
+}
+.live-transfers{
+    margin: 108px;
+}
+.live-transfers h2{
+    font-weight: 800;
+    font-size: 43px;
+}
+#style-btn{
+    border: none;
+    background: #e9e9e9;
+}
+
+
+.lead-checkbox{
+    box-shadow: 0px 0px 0px 0px #e9e9e9;
+    background: beige;
+    padding: 27px;
+}
+.get-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn-padding-style{
+    border: none;
+    background: #45ef45;
+    color: white;
+    padding: 11px 25px 11px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 768px)  { 
+    .pngd{
+        display: none;
+    }
+    .top-hedder-support-section {
+        display: flex;
+        ap: 15px;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .purchase-data-card-section {
+            flex-flow: column;
+    }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+    .top-hedder-support-section {
+        display: flex;
+        ap: 15px;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+}
